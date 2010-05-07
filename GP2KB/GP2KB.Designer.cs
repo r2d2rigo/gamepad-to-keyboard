@@ -239,6 +239,7 @@ namespace GP2KB
             this.Controls.Add(this.keyX);
             this.Controls.Add(this.keyA);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "GP2KB";
             this.Text = "GamePad to KeyBoard";
